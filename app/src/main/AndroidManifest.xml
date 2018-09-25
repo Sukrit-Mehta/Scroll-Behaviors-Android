@@ -8,13 +8,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".StdAppBarScrollActivity" />
         <activity android:name=".StdAppBarStaysActivity" />
         <activity android:name=".AppBarWithTabsScrollsActivity" />
@@ -23,6 +16,17 @@
         <activity android:name=".AppBarFlexiSpaceScrollsActivity" />
         <activity android:name=".AppBarFlexiImageScrollsActivity" />
         <activity android:name=".AppBarFlexiOverlappingActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <!--         <activity android:name=".ExpandableRecyclerView.ExpandableTestingActivity"></activity> -->
+        <activity android:name=".ExpandableRecyclerView.ExpandActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
